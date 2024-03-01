@@ -1,0 +1,41 @@
+*{
+    background-color: #363062;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DS-Digital', sans-serif;
+    
+}
+h1,h2,h3{
+    color: #F5F5F5;
+    text-align: center;
+    margin: 4rem;
+}
+.container{
+    display: grid;
+    gap:30px;
+    justify-content: center;
+}
+div{
+    background-color: aliceblue;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2);
+}
+div:hover{
+    box-shadow: 5px 5px rgb(0 0 0 / 1);
+}
+#red{
+    background-color: red;
+    grid-column: 2/3;;
+}
+#green{
+    background-color: green;
+    grid-column: 1/2;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
